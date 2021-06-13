@@ -1,14 +1,17 @@
 import "../assets/css/App.css";
-import Advertisement from "../components/Advertisement.js";
+import TopAdvertisement from "../components/Advertisement/TopAdvertisement.js";
+import LeftAside from "../components/LeftAside/LeftAside.js";
+import RightAside from "../components/RightAside/RightAside.js";
+import MainContent from "../components/MainContent/MainContent.js";
 
 function App() {
   return (
-    <div class="mx-auto max-w-7xl">
-      <Advertisement />
-      <div class="grid grid-cols-main gap-2.5 mt-2.5">
-        <div class="bg-gray-300">Left</div>
-        <div class="bg-green-300">Content</div>
-        <div class="bg-blue-300">Right</div>
+    <div className="mx-auto max-w-6.9xl">
+      <TopAdvertisement />
+      <div className="grid grid-cols-main gap-2.5 mt-2.5">
+        <LeftAside />
+        <MainContent />
+        <RightAside />
       </div>
     </div>
   );

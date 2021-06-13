@@ -1,0 +1,13 @@
+.app__title {
+  @apply bg-bahamut-green border-2 leading-27 font-bold text-white text-center;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgba(216, 243, 221, 0.56)),
+    color-stop(60%, rgba(91, 225, 194, 0.56)),
+    to(rgba(25, 201, 177, 0.56))
+  );
+  border-color: rgba(4, 98, 79, 0.15);
+  box-shadow: 2.2px 2.2px 1px rgb(255 255 255 / 50%) inset;
+}
