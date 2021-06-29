@@ -11,6 +11,7 @@ module.exports = {
           green: "#04624f",
           gold: "#f39c12",
           blue: "#3e81c6",
+          blueGreen: "#117e96",
         },
         gray: {
           250: "#cccccc",
@@ -21,6 +22,7 @@ module.exports = {
         1.25: "5px",
         2.5: "10px",
         22.5: "90px",
+        37.5: "150px",
       },
       borderRadius: {
         DEFAULT: "4px",
@@ -40,6 +42,9 @@ module.exports = {
       fontSize: {
         tiny: "13px",
         base: "15px",
+      },
+      letterSpacing: {
+        default: "2px",
       },
     },
   },
