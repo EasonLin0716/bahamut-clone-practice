@@ -9,12 +9,15 @@ module.exports = {
           gold: "#f39c12",
           blue: "#3e81c6",
           blueGreen: "#117e96",
+          linkBlue: "#0061c7",
           yellow: "#fff4cd",
           deepYellow: "#d4b878",
+          red: "#f03434",
         },
         gray: {
           250: "#cccccc",
           350: "#5e5e5e",
+          450: "#999",
         },
       },
       spacing: {
@@ -28,6 +31,7 @@ module.exports = {
         22.5: "90px",
         25: "100px",
         37.5: "150px",
+        45: "180px",
       },
       borderRadius: {
         DEFAULT: "4px",
@@ -53,6 +57,8 @@ module.exports = {
         default: "2px",
       },
       lineHeight: {
+        18: "18px",
+        21: "21px",
         27: "27px",
       },
     },

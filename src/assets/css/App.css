@@ -32,3 +32,8 @@
 .animevideo__info:hover .animevideo__info__link p:last-child {
   @apply underline;
 }
+
+.animelist__link {
+  @apply text-tiny overflow-hidden whitespace-nowrap overflow-ellipsis inline-block align-middle leading-21 text-bahamut-linkBlue hover:underline;
+  max-width: 116px;
+}
