@@ -9,6 +9,7 @@ module.exports = {
           gold: "#f39c12",
           blue: "#3e81c6",
           blueGreen: "#117e96",
+          selectedBlue: "#147eaf",
           linkBlue: "#0061c7",
           yellow: "#fff4cd",
           deepYellow: "#d4b878",
@@ -18,6 +19,8 @@ module.exports = {
           250: "#cccccc",
           350: "#5e5e5e",
           450: "#999",
+          550: "#f6f6f6",
+          650: "#aaaaaa",
         },
       },
       spacing: {
