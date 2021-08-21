@@ -36,7 +36,7 @@ const mockData = [
 export default function WelfareAgency() {
   const welfareAgencyTitle = "勇者福利社";
   return (
-    <div>
+    <div className="sticky top-1.25">
       <Title text={welfareAgencyTitle} />
       <div className="border border-t-0 border-gray-250 py-1.25 px-2.5">
         {mockData.map((item, index) => (
