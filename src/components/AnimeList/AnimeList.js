@@ -40,7 +40,7 @@ export default function AnimeList() {
   return (
     <div className="border border-gray-250">
       {mockData.map((item, index) => (
-        <div>
+        <div key={index}>
           <div className="m-1.5">
             <span>
               <a className="animelist__link" href={item.link}>

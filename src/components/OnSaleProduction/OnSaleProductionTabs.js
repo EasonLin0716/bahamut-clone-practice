@@ -109,7 +109,7 @@ export default function OnSaleProductionTabs() {
       </TabList>
       <TabPanel>
         {mockData.pcData.map((item) => (
-          <div key={item.id} class="mb-1.5">
+          <div key={item.id} className="mb-1.5">
             <OnSaleProductionTabsPC item={item} />
             <SeparateLine />
           </div>

@@ -39,8 +39,8 @@ export default function WelfareAgency() {
     <div>
       <Title text={welfareAgencyTitle} />
       <div className="border border-t-0 border-gray-250 py-1.25 px-2.5">
-        {mockData.map((item) => (
-          <div>
+        {mockData.map((item, index) => (
+          <div key={index}>
             <WelfareAgencyItem
               imgSrc={item.imgSrc}
               tag={item.tag}

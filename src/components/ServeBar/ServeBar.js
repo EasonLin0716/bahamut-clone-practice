@@ -106,9 +106,9 @@ const mockData = [
 ];
 export default function ServeBar() {
   return (
-    <ul class="border border-gray-250">
-      {mockData.map((item) => (
-        <li className="block ml-2.5 pt-1.25 mr-1.25 ">
+    <ul className="border border-gray-250">
+      {mockData.map((item, index) => (
+        <li key={index} className="block ml-2.5 pt-1.25 mr-1.25 ">
           <ServeBarLink icon={item.icon} title={item.title} link={item.link} />
           <SeparateLine />
         </li>
