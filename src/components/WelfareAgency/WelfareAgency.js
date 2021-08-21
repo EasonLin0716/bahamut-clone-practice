@@ -1,4 +1,4 @@
-import Title from "../Title/Title.js";
+import Title from "../UI/Title/Title.js";
 import WelfareAgencyItem from "./WelfareAgencyItem.js";
 import SeparateLine from "../SeparateLine/SeparateLine.js";
 const mockData = [

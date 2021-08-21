@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Tabs, TabList, TabPanel } from "react-tabs";
-import HoverTab from "../Tabs/HoverTab.js";
+import HoverTab from "../UI/Tabs/HoverTab.js";
 import "./onSaleProductTabs.css";
 import OnSaleProductionTabsPC from "./OnSaleProductionTabsPC.js";
 import SeparateLine from "../SeparateLine/SeparateLine.js";
