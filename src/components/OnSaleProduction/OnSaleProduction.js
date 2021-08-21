@@ -1,4 +1,4 @@
-import Title from "../Title/Title.js";
+import Title from "../UI/Title/Title.js";
 import OnSaleProductionTabs from "./OnSaleProductionTabs.js";
 export default function OnSaleProduction() {
   const animeVideoTitle = "上市發行表";
