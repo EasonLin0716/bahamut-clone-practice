@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Tabs, TabList, TabPanel } from "react-tabs";
+import HoverTab from "../Tabs/HoverTab.js";
 import "./onSaleProductTabs.css";
 import OnSaleProductionTabsPC from "./OnSaleProductionTabsPC.js";
 import SeparateLine from "../SeparateLine/SeparateLine.js";
@@ -82,14 +83,29 @@ const mockData = {
 };
 export default function OnSaleProductionTabs() {
   const [tabIndex, setTabIndex] = useState(0);
+  let timer = null;
+  const handleHover = (index) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      setTabIndex(index);
+    }, 200);
+  };
 
   return (
     <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
       <TabList>
-        <Tab>PC</Tab>
-        <Tab>TV</Tab>
-        <Tab>動畫</Tab>
-        <Tab>其他</Tab>
+        <HoverTab isActive={tabIndex === 0} onHover={() => handleHover(0)}>
+          PC
+        </HoverTab>
+        <HoverTab isActive={tabIndex === 1} onHover={() => handleHover(1)}>
+          TV
+        </HoverTab>
+        <HoverTab isActive={tabIndex === 2} onHover={() => handleHover(2)}>
+          動畫
+        </HoverTab>
+        <HoverTab isActive={tabIndex === 3} onHover={() => handleHover(3)}>
+          其他
+        </HoverTab>
       </TabList>
       <TabPanel>
         {mockData.pcData.map((item) => (
