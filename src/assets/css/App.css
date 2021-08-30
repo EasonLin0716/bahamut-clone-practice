@@ -37,3 +37,9 @@
   @apply text-tiny overflow-hidden whitespace-nowrap overflow-ellipsis inline-block align-middle leading-21 text-bahamut-linkBlue hover:underline;
   max-width: 116px;
 }
+
+.main-news-card__tag {
+  @apply absolute py-0.5 px-2.5 top-1.25 text-white;
+  background: rgba(134, 134, 134, 0.7);
+  border-radius: 0 3px 3px 0;
+}

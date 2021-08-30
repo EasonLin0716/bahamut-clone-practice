@@ -1,3 +1,8 @@
+import MainNews from "../MainNews/MainNews";
 export default function MainContent() {
-  return <div className="bg-blue-300">MainContent</div>;
+  return (
+    <div>
+      <MainNews></MainNews>
+    </div>
+  );
 }
