@@ -1,6 +1,7 @@
 import { useState } from "react";
 import MainNewsTabPanel from "./MainNewsTabPanel";
 import MainNewsInfo from "./MainNewsInfo";
+import GreaterLink from "../UI/Link/GreaterLinkGroup";
 import {
   randomID,
   randomTitle,
@@ -10,7 +11,7 @@ import {
 } from "../../assets/js/randomize";
 import { Tabs, TabList, TabPanel } from "react-tabs";
 import HoverTab from "../UI/Tabs/HoverTab.js";
-const itemsFactory = (length = 12) =>
+const itemsFactory = (length = 8) =>
   Array.from({ length }, () => ({
     id: randomID(),
     title: randomTitle(),
@@ -30,7 +31,7 @@ const mockData = {
   game: itemsFactory(),
   GC: itemsFactory(),
   topic: itemsFactory(),
-  info: itemsFactory(),
+  info: itemsFactory(12),
 };
 export default function MainNews() {
   const [tabIndex, setTabIndex] = useState(0);
@@ -101,18 +102,8 @@ export default function MainNews() {
       <div className="pt-2.5 pb-1.25 px-2.5 border-r border-b border-l border-gray-250">
         <MainNewsInfo items={mockData.info} />
         <div className="pt-1.25 flex justify-end gap-3.75">
-          <a
-            className="text-base text-bahamut-linkBlue hover:underline"
-            href="https://www.google.com"
-          >
-            &gt;&nbsp;投稿
-          </a>
-          <a
-            className="text-base text-bahamut-linkBlue hover:underline"
-            href="https://www.google.com"
-          >
-            &gt;&nbsp;更多新聞
-          </a>
+          <GreaterLink href="https://www.google.com">投稿</GreaterLink>
+          <GreaterLink href="https://www.google.com">更多新聞</GreaterLink>
         </div>
       </div>
     </>

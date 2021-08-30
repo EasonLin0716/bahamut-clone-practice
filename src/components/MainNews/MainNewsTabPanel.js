@@ -13,11 +13,6 @@ export default function MainNewsTabPanel(props) {
           <MainNewsCard key={item.id} item={item}></MainNewsCard>
         ))}
       </div>
-      <div className="flex justify-between px-1 py-1.75 gap-2 border-b border-gray-250">
-        {items.slice(8, 12).map((item) => (
-          <MainNewsCard key={item.id} item={item}></MainNewsCard>
-        ))}
-      </div>
     </div>
   );
 }
