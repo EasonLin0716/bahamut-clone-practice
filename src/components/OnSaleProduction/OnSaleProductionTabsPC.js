@@ -7,7 +7,7 @@ export default function OnSaleProductionTabsPC(props) {
       <Tag customClass="w-7.5 border-gray-650 text-gray-450">{item.type}</Tag>
       <Link
         href={item.link}
-        customClass="text-bahamut-linkBlue whitespace-nowrap"
+        customClass="text-bahamut-linkBlue whitespace-nowrap ml-1.25"
       >
         {item.title}
       </Link>

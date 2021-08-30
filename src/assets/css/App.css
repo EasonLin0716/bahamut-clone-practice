@@ -1,3 +1,7 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .app__title {
   @apply bg-bahamut-green border-2 leading-27 font-bold text-white text-center;
   background-image: -webkit-gradient(
@@ -13,7 +17,7 @@
 }
 
 .daily-signin__wrapper {
-  @apply flex items-center justify-center w-full bg-bahamut-yellow border border-bahamut-deepYellow py-3.25 rounded;
+  @apply flex items-center justify-center w-full bg-bahamut-yellow border border-bahamut-deepYellow py-3.75 rounded;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -39,7 +43,7 @@
 }
 
 .main-news-card__tag {
-  @apply absolute py-0.5 px-2.5 top-1.25 text-white;
+  @apply absolute py-0.5 px-2.5 top-1.25 text-white text-tiny;
   background: rgba(134, 134, 134, 0.7);
   border-radius: 0 3px 3px 0;
 }

@@ -11,7 +11,10 @@ export default function MainNewsCard(props) {
         />
         <span className="main-news-card__tag">{item.tag}</span>
       </div>
-      <Link href={item.href} customClass="hover:text-bahamut-linkBlue ">
+      <Link
+        href={item.href}
+        customClass="hover:text-bahamut-linkBlue text-gray-350 leading-18"
+      >
         {item.title}
       </Link>
     </div>

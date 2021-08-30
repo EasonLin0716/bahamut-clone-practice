@@ -64,12 +64,12 @@ export default function CaseStudy() {
               <a
                 href={item.link}
                 style={linkStyle}
-                className="block py-1.25 pl-3.25 text-tiny hover:text-underline"
+                className="block py-1.25 pl-3.75 text-tiny hover:text-underline"
               >
                 {item.title}
               </a>
               {index < mockData.length - 1 && (
-                <div className="pl-3.25">
+                <div className="pl-3.75">
                   <SeparateLine />
                 </div>
               )}
