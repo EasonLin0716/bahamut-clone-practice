@@ -24,7 +24,7 @@ export default function AnimeVideo(props) {
       <Title text={animeVideoTitle} />
       <div className="pb-1.25"></div>
       {mockData.map((item, index) => (
-        <div key={item.id} className="animevideo__wrapper">
+        <div key={item.id} className="anime-video__wrapper">
           <a href={item.link}>
             <img
               src={item.imgSrc}
@@ -32,8 +32,8 @@ export default function AnimeVideo(props) {
               alt=""
             />
           </a>
-          <div className="animevideo__info">
-            <a href={item.link} className="animevideo__info__link">
+          <div className="anime-video__info">
+            <a href={item.link} className="anime-video__info__link">
               <p className="text-tiny text-center h-5.5 mb-2 overflow-hidden">
                 {item.title}
               </p>

@@ -12,28 +12,28 @@
   box-shadow: 2.2px 2.2px 1px rgb(255 255 255 / 50%) inset;
 }
 
-.dailysignin__wrapper {
+.daily-signin__wrapper {
   @apply flex items-center justify-center w-full bg-bahamut-yellow border border-bahamut-deepYellow py-3.25 rounded;
   color: rgba(0, 0, 0, 0.5);
 }
 
-.animevideo__wrapper {
+.anime-video__wrapper {
   @apply mb-2.5;
 }
 
-.animevideo__wrapper:last-child {
+.anime-video__wrapper:last-child {
   @apply mb-0;
 }
 
-.animevideo__info {
+.anime-video__info {
   @apply border-l border-r border-b border-gray-250 py-0.75 rounded-l rounded-r;
 }
 
-.animevideo__info:hover .animevideo__info__link p:last-child {
+.anime-video__info:hover .anime-video__info__link p:last-child {
   @apply underline;
 }
 
-.animelist__link {
+.anime-list__link {
   @apply text-tiny overflow-hidden whitespace-nowrap overflow-ellipsis inline-block align-middle leading-21 text-bahamut-linkBlue hover:underline;
   max-width: 116px;
 }

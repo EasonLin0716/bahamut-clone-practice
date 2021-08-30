@@ -43,7 +43,7 @@ export default function AnimeList() {
         <div key={index}>
           <div className="m-1.5">
             <span>
-              <a className="animelist__link" href={item.link}>
+              <a className="anime-list__link" href={item.link}>
                 {item.title}
               </a>
               <span className="text-tiny text-gray-450">[{item.episode}]</span>
