@@ -51,6 +51,7 @@ module.exports = {
         main: "180px 750px 300px",
       },
       gap: {
+        0.5: "2px",
         2.5: "10px",
       },
       margin: {
