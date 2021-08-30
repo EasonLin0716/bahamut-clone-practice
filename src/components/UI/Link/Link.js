@@ -1,7 +1,7 @@
 export default function Link(props) {
   return (
     <a
-      className="text-tiny text-bahamut-linkBlue hover:underline flex-grow ml-1.25 overflow-hidden whitespace-nowrap"
+      className={`${props.customClass} text-tiny hover:underline flex-grow ml-1.25 overflow-hidden`}
       href={props.href}
     >
       {props.children}

@@ -5,7 +5,12 @@ export default function OnSaleProductionTabsTV(props) {
   return (
     <div className="flex justify-between items-center pb-1.75">
       <Tag customClass="w-12.5 border-gray-650 text-gray-450">{item.type}</Tag>
-      <Link href={item.link}>{item.title}</Link>
+      <Link
+        href={item.link}
+        customClass="text-bahamut-linkBlue whitespace-nowrap"
+      >
+        {item.title}
+      </Link>
       <span className="text-xs text-gray-450">{item.date}</span>
     </div>
   );
