@@ -1,0 +1,4 @@
+.game-crazy__cover {
+  @apply relative;
+  height: 135px;
+}
