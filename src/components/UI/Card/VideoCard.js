@@ -3,6 +3,9 @@ export default function VideoCard(props) {
   const { item } = props;
   return (
     <div key={item.id} className="w-full">
+      {item.theme && (
+        <p className="text-center mt-0.5 mb-1.75 text-gray-350">{item.theme}</p>
+      )}
       <div className="game-crazy__cover">
         <img
           src={item.imgSrc}

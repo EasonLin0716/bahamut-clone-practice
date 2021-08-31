@@ -34,7 +34,7 @@ export const randomImg = () => {
   return filePath;
 };
 
-const mockTags = ["PC", "PS4", "手機", "NS", "多平台"];
+const mockTags = ["PC", "PS4", "手機", "NS", "多平台", "其他"];
 
 export const randomTag = () => {
   const i = (Math.random() * (mockTags.length - 1)) | 0;
