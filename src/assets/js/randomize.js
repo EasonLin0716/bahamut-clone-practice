@@ -23,9 +23,9 @@ const mockTitles = [
   "向很難是天兩過到我表：們我金近克，深性條成聽破福友日速化原是子",
 ];
 
-export const randomTitle = () => {
+export const randomTitle = (maxLength = Infinity) => {
   const i = (Math.random() * (mockTitles.length - 1)) | 0;
-  return mockTitles[i];
+  return mockTitles[i].slice(0, maxLength);
 };
 
 export const randomImg = () => {
@@ -45,3 +45,6 @@ export const randomBoolean = () => !!Math.round(Math.random());
 
 export const randomNumber = (min = 0, max = 1000000) =>
   (Math.random() * (max - min + 1) + min) | 0;
+
+export const randomPercentage = (min = 0, max = 99) =>
+  (Math.random() * (max - min + 1) + min).toFixed(2) + "%";

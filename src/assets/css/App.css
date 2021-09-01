@@ -95,3 +95,7 @@
 .tab-default .react-tabs__tab-panel--selected {
   display: block;
 }
+
+.android-game-ranking__wrapper {
+  @apply grid grid-cols-2 gap-x-6 pt-2.5 pl-2.5 pr-2.5 pb-4 border-l border-r border-b border-gray-250;
+}
