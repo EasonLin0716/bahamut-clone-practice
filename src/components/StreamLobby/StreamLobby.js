@@ -39,13 +39,13 @@ export default function StreamLobby() {
             <div className="border-l border-r border-b border-gray-250 pt-2.5  ">
               <div className="flex gap-2 my-2.5 px-1">
                 {mockData.slice(0, 3).map((item) => (
-                  <VideoCard item={item} />
+                  <VideoCard key={item.id} item={item} />
                 ))}
               </div>
               <div className="border-t border-gray-250"></div>
               <div className="flex gap-2 my-2.5 px-1">
                 {mockData.slice(3, 6).map((item) => (
-                  <VideoCard item={item} />
+                  <VideoCard key={item.id} item={item} />
                 ))}
               </div>
               <hr className="mx-1" />

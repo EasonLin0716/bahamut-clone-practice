@@ -4,7 +4,7 @@ export default function MainNewsInfo(props) {
   return (
     <div>
       {items.map((item) => (
-        <>
+        <div key={item.id}>
           <div className="flex gap-1.25 py-1.5 items-center">
             <span className="text-tiny bg-bahamut-skyBlue text-bahamut-tagBlue  w-11.5 text-center">
               {item.tag}
@@ -31,7 +31,7 @@ export default function MainNewsInfo(props) {
             )}
           </div>
           <SeparateLine />
-        </>
+        </div>
       ))}
     </div>
   );
