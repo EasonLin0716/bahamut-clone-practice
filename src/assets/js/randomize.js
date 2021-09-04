@@ -23,6 +23,13 @@ const mockTitles = [
   "向很難是天兩過到我表：們我金近克，深性條成聽破福友日速化原是子",
 ];
 
+const mockCategories = ["心得", "閒聊", "情報", "討論", "認真", "抱怨"];
+
+export const randomCategory = () => {
+  const i = (Math.random() * (mockCategories.length - 1)) | 0;
+  return mockCategories[i];
+};
+
 export const randomTitle = (maxLength = Infinity) => {
   const i = (Math.random() * (mockTitles.length - 1)) | 0;
   return mockTitles[i].slice(0, maxLength);

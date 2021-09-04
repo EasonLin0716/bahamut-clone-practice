@@ -13,3 +13,8 @@
   color: #3e81c6;
   text-decoration: underline #3e81c6;
 }
+
+.main-topic-section__grid {
+  display: grid;
+  grid-template-columns: 26.69px 135px 1fr 41.19px;
+}
