@@ -19,6 +19,7 @@ module.exports = {
           deepYellow: "#d4b878",
           red: "#f03434",
           halaGray: "#a6c3da",
+          numberGreen: "#189696",
         },
         gray: {
           250: "#cccccc",
@@ -35,6 +36,7 @@ module.exports = {
         1.75: "7px",
         2.25: "9px",
         2.5: "10px",
+        2.75: "11px",
         3.25: "13px",
         3.5: "14px",
         3.75: "15px",
