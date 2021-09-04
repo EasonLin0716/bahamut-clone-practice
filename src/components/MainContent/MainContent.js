@@ -4,6 +4,7 @@ import StreamLobby from "../StreamLobby/StreamLobby";
 import AndroidGameRanking from "../AndroidGameRanking/AndroidGameRanking";
 import GuildLobby from "../GuildLobby/GuildLobby";
 import CreateLobby from "../CreateLobby/CreateLobby";
+import MainForum from "../MainForum/MainForum";
 export default function MainContent() {
   return (
     <div className="flex flex-col gap-2.5">
@@ -13,6 +14,7 @@ export default function MainContent() {
       <CreateLobby></CreateLobby>
       <StreamLobby></StreamLobby>
       <GuildLobby></GuildLobby>
+      <MainForum></MainForum>
     </div>
   );
 }

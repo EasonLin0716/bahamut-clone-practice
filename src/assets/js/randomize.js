@@ -28,6 +28,11 @@ export const randomTitle = (maxLength = Infinity) => {
   return mockTitles[i].slice(0, maxLength);
 };
 
+export const randomName = (min = 3, max = 8) => {
+  const i = (Math.random() * (mockTitles.length - 1)) | 0;
+  return mockTitles[i].slice(min, max);
+};
+
 export const randomImg = () => {
   const num = (Math.random() * 24 + 1) | 0;
   const filePath = `/img/${num > 9 ? num : "0" + num}.jpg`;
