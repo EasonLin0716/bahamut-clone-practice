@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bahamut-clone-practice/static/css/main.30625d95.chunk.css",
+    "main.js": "/bahamut-clone-practice/static/js/main.ed95a06a.chunk.js",
+    "main.js.map": "/bahamut-clone-practice/static/js/main.ed95a06a.chunk.js.map",
+    "runtime-main.js": "/bahamut-clone-practice/static/js/runtime-main.42daaf10.js",
+    "runtime-main.js.map": "/bahamut-clone-practice/static/js/runtime-main.42daaf10.js.map",
+    "static/js/2.abe37fc6.chunk.js": "/bahamut-clone-practice/static/js/2.abe37fc6.chunk.js",
+    "static/js/2.abe37fc6.chunk.js.map": "/bahamut-clone-practice/static/js/2.abe37fc6.chunk.js.map",
+    "static/js/3.e3046945.chunk.js": "/bahamut-clone-practice/static/js/3.e3046945.chunk.js",
+    "static/js/3.e3046945.chunk.js.map": "/bahamut-clone-practice/static/js/3.e3046945.chunk.js.map",
+    "index.html": "/bahamut-clone-practice/index.html",
+    "static/css/main.30625d95.chunk.css.map": "/bahamut-clone-practice/static/css/main.30625d95.chunk.css.map",
+    "static/js/2.abe37fc6.chunk.js.LICENSE.txt": "/bahamut-clone-practice/static/js/2.abe37fc6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42daaf10.js",
+    "static/js/2.abe37fc6.chunk.js",
+    "static/css/main.30625d95.chunk.css",
+    "static/js/main.ed95a06a.chunk.js"
+  ]
+}
