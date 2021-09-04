@@ -3,7 +3,7 @@ export default function BottomRandomPostCard(props) {
   return (
     <div className="border border-gray-250">
       <img src={item.imgSrc} className="w-full" alt="cover" />
-      <div className="pt-4 pl-3.75 pl-3.75 pb-3.75">
+      <div className="pt-4 pl-3.75 pb-3.75">
         <a
           href="https://www.google.com"
           className="mb-1 inline-block text-gray-350 hover:text-bahamut-linkBlue hover:underline"
