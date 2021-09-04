@@ -2,6 +2,8 @@ export const randomID = () => {
   return Math.random().toString(36).slice(-8);
 };
 
+const FAKEIMG_URL = "https://fakeimg.pl/";
+
 const mockTitles = [
   "路呢歌裝蝶寸抓安雨枝玩遠媽兆，飽娘女民圓路工尾可大急己乍。皮像又主",
   "中校做跟歡，門消苦地少弓畫孝民院衣夕京跟田",
@@ -25,6 +27,17 @@ const mockTitles = [
 
 const mockCategories = ["心得", "閒聊", "情報", "討論", "認真", "抱怨"];
 
+const mockTopics = ["插畫達人", "插畫", "小說", "日誌"];
+
+const randomColor = () => {
+  const letters = "0123456789ABCDEF";
+  let res = "";
+  for (var i = 0; i < 6; i++) {
+    res += letters[Math.floor(Math.random() * 16)];
+  }
+  return res;
+};
+
 export const randomCategory = () => {
   const i = (Math.random() * (mockCategories.length - 1)) | 0;
   return mockCategories[i];
@@ -33,6 +46,11 @@ export const randomCategory = () => {
 export const randomTitle = (maxLength = Infinity) => {
   const i = (Math.random() * (mockTitles.length - 1)) | 0;
   return mockTitles[i].slice(0, maxLength);
+};
+
+export const randomTopic = (maxLength = Infinity) => {
+  const i = (Math.random() * (mockTopics.length - 1)) | 0;
+  return mockTopics[i].slice(0, maxLength);
 };
 
 export const randomName = (min = 3, max = 8) => {
@@ -60,3 +78,9 @@ export const randomNumber = (min = 0, max = 1000000) =>
 
 export const randomPercentage = (min = 0, max = 99) =>
   (Math.random() * (max - min + 1) + min).toFixed(2) + "%";
+
+export const randomFakeImgPl = () => {
+  const randomWidth = randomNumber(400, 500);
+  const randomHeight = randomNumber(300, 600);
+  return `${FAKEIMG_URL}${randomWidth}x${randomHeight}/${randomColor()}`;
+};

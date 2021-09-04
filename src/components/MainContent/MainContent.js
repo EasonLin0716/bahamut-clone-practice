@@ -6,6 +6,7 @@ import GuildLobby from "../GuildLobby/GuildLobby";
 import CreateLobby from "../CreateLobby/CreateLobby";
 import MainForum from "../MainForum/MainForum";
 import MainTopic from "../MainTopic/MainTopic";
+import BottomRandomPost from "../BottomRandomPost/BottomRandomPost";
 export default function MainContent() {
   return (
     <div className="flex flex-col gap-2.5">
@@ -17,6 +18,7 @@ export default function MainContent() {
       <GuildLobby></GuildLobby>
       <MainForum></MainForum>
       <MainTopic></MainTopic>
+      <BottomRandomPost></BottomRandomPost>
     </div>
   );
 }
