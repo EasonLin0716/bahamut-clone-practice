@@ -41,6 +41,7 @@ export default function MainTopicSection(props) {
       ))}
       <div className="pt-1.25 text-right">
         <GreaterLink>申請新版</GreaterLink>
+        <span class="pr-1"></span>
         <GreaterLink>前往哈啦區</GreaterLink>
       </div>
     </div>
