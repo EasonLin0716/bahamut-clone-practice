@@ -16,7 +16,7 @@ export default function VideoCard(props) {
           <div className="absolute bottom-1 right-2.25">
             <span className="text-white text-xs flex gap-1.25">
               <img
-                src="/icon/eye-solid.svg"
+                src="/bahamut-clone-practice/icon/eye-solid.svg"
                 alt="eye-icon"
                 className="w-3.25 mb-0.5"
               />

@@ -60,7 +60,9 @@ export const randomName = (min = 3, max = 8) => {
 
 export const randomImg = () => {
   const num = (Math.random() * 24 + 1) | 0;
-  const filePath = `/img/${num > 9 ? num : "0" + num}.jpg`;
+  const filePath = `/bahamut-clone-practice/img/${
+    num > 9 ? num : "0" + num
+  }.jpg`;
   return filePath;
 };
 

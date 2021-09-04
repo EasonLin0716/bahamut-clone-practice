@@ -3,7 +3,7 @@ export default function MainForumHeading() {
     <div className="flex justify-between flex-grow bg-gray-550 py-1.75">
       <div>
         <img
-          src="/icon/new_icon1.gif"
+          src="/bahamut-clone-practice/icon/new_icon1.gif"
           className="pr-1.25 pl-1.25 inline-block"
           alt=""
         />

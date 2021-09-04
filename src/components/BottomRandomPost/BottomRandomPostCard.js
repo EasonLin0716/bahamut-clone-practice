@@ -15,7 +15,7 @@ export default function BottomRandomPostCard(props) {
           <span className="text-tiny">
             <img
               className="w-3 inline-block mr-0.5 pb-0.5"
-              src="/icon/thumbs-up-regular.svg"
+              src="/bahamut-clone-practice/icon/thumbs-up-regular.svg"
               alt=""
             />
             {item.likes}
@@ -23,7 +23,7 @@ export default function BottomRandomPostCard(props) {
           <span className="text-tiny">
             <img
               className="w-4 inline-block mr-0.5 pb-0.5"
-              src="/icon/comments-solid.svg"
+              src="/bahamut-clone-practice/icon/comments-solid.svg"
               alt=""
             />
             {item.replies}

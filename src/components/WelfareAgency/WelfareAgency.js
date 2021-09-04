@@ -4,31 +4,31 @@ import SeparateLine from "../SeparateLine/SeparateLine.js";
 const mockData = [
   {
     id: 1,
-    imgSrc: "/img/01.jpg",
+    imgSrc: "/bahamut-clone-practice/img/01.jpg",
     tag: "勇者任務",
     content: "重點情報揭密《二之國：交錯世界》攻略影片搶先看！",
   },
   {
     id: 2,
-    imgSrc: "/img/02.jpg",
+    imgSrc: "/bahamut-clone-practice/img/02.jpg",
     tag: "抽抽樂",
     content: "重點情報揭密《二之國：交錯世界》攻略影片搶先看！",
   },
   {
     id: 3,
-    imgSrc: "/img/03.jpg",
+    imgSrc: "/bahamut-clone-practice/img/03.jpg",
     tag: "抽抽樂",
     content: "重點情報揭密《二之國：交錯世界》攻略影片搶先看！",
   },
   {
     id: 4,
-    imgSrc: "/img/04.jpg",
+    imgSrc: "/bahamut-clone-practice/img/04.jpg",
     tag: "抽抽樂",
     content: "重點情報揭密《二之國：交錯世界》攻略影片搶先看！",
   },
   {
     id: 5,
-    imgSrc: "/img/05.jpg",
+    imgSrc: "/bahamut-clone-practice/img/05.jpg",
     tag: "抽抽樂",
     content: "重點情報揭密《二之國：交錯世界》攻略影片搶先看！",
   },

@@ -57,7 +57,7 @@ export default function CaseStudy() {
           return (
             <li key={item.id} className="relative">
               <img
-                src="/icon/green-dot.png"
+                src="/bahamut-clone-practice/icon/green-dot.png"
                 alt=""
                 className="absolute top-3"
               />

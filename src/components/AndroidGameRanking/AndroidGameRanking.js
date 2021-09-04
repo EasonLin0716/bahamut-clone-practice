@@ -64,7 +64,7 @@ export default function AndroidGameRanking() {
                   <div>
                     <span className="inline-block text-base text-bahamut-percentageBlue w-17.5 mr-1.75">
                       <img
-                        src="/icon/long-arrow-alt-up-solid.svg"
+                        src="/bahamut-clone-practice/icon/long-arrow-alt-up-solid.svg"
                         className="h-4 inline-block mr-0.75"
                         alt="long-arrow-alt"
                       />
@@ -101,7 +101,7 @@ export default function AndroidGameRanking() {
                   <div>
                     <span className="inline-block text-base text-bahamut-percentageBlue w-17.5 mr-1.75">
                       <img
-                        src="/icon/child-solid.svg"
+                        src="/bahamut-clone-practice/icon/child-solid.svg"
                         className="h-4 inline-block mr-0.75"
                         alt="long-arrow-alt"
                       />

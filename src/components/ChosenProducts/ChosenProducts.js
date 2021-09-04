@@ -2,21 +2,21 @@ import Title from "../UI/Title/Title.js";
 const mockData = [
   {
     id: 1,
-    imgSrc: "/img/01.jpg",
+    imgSrc: "/bahamut-clone-practice/img/01.jpg",
     title: "集童我高文個",
     content: "他分一等包長計院",
     link: "https://www.google.com",
   },
   {
     id: 2,
-    imgSrc: "/img/02.jpg",
+    imgSrc: "/bahamut-clone-practice/img/02.jpg",
     title: "示子兒持化謝",
     content: "不路病充代新城",
     link: "https://www.google.com",
   },
   {
     id: 3,
-    imgSrc: "/img/03.jpg",
+    imgSrc: "/bahamut-clone-practice/img/03.jpg",
     title: "出人關北求一",
     content: "上二時表的望金任",
     link: "https://www.google.com",

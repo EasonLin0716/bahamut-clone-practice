@@ -6,7 +6,7 @@ export default function MainTopicSection(props) {
     <div className="border-gray-250 border-l border-b border-r pt-2.5 pl-2.5 pr-2.5 pb-1.25">
       <div className="main-topic-section__grid bg-gray-550 text-gray-350">
         <img
-          src="/icon/new_icon1.gif"
+          src="/bahamut-clone-practice/icon/new_icon1.gif"
           className="pt-2.75 pl-1.25 pr-1.25 pb-1.25 "
           alt=""
         />

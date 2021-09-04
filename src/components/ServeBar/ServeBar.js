@@ -3,103 +3,103 @@ import SeparateLine from "../SeparateLine/SeparateLine.js";
 const mockData = [
   {
     id: 1,
-    icon: "/icon/01.png",
+    icon: "/bahamut-clone-practice/icon/01.png",
     title: "GNN新聞",
     link: "https://www.google.com",
   },
   {
     id: 2,
-    icon: "/icon/02.png",
+    icon: "/bahamut-clone-practice/icon/02.png",
     title: "哈啦區",
     link: "https://www.google.com",
   },
   {
     id: 3,
-    icon: "/icon/03.png",
+    icon: "/bahamut-clone-practice/icon/03.png",
     title: "哈哈姆特不EY",
     link: "https://www.google.com",
   },
 
   {
     id: 4,
-    icon: "/icon/04.png",
+    icon: "/bahamut-clone-practice/icon/04.png",
     title: "動態牆",
     link: "https://www.google.com",
   },
 
   {
     id: 5,
-    icon: "/icon/05.png",
+    icon: "/bahamut-clone-practice/icon/05.png",
     title: "電玩瘋",
     link: "https://www.google.com",
   },
 
   {
     id: 6,
-    icon: "/icon/06.png",
+    icon: "/bahamut-clone-practice/icon/06.png",
     title: "動畫瘋",
     link: "https://www.google.com",
   },
 
   {
     id: 7,
-    icon: "/icon/07.png",
+    icon: "/bahamut-clone-practice/icon/07.png",
     title: "創作大廳",
     link: "https://www.google.com",
   },
 
   {
     id: 8,
-    icon: "/icon/08.png",
+    icon: "/bahamut-clone-practice/icon/08.png",
     title: "實況大廳",
     link: "https://www.google.com",
   },
 
   {
     id: 9,
-    icon: "/icon/09.png",
+    icon: "/bahamut-clone-practice/icon/09.png",
     title: "公會大廳",
     link: "https://www.google.com",
   },
 
   {
     id: 10,
-    icon: "/icon/10.png",
+    icon: "/bahamut-clone-practice/icon/10.png",
     title: "勇者造型",
     link: "https://www.google.com",
   },
 
   {
     id: 11,
-    icon: "/icon/11.png",
+    icon: "/bahamut-clone-practice/icon/11.png",
     title: "巴哈商城",
     link: "https://www.google.com",
   },
 
   {
     id: 12,
-    icon: "/icon/12.png",
+    icon: "/bahamut-clone-practice/icon/12.png",
     title: "勇者福利社",
     link: "https://www.google.com",
   },
 
   {
     id: 13,
-    icon: "/icon/13.png",
+    icon: "/bahamut-clone-practice/icon/13.png",
     title: "ＡＰＰ",
     link: "https://www.google.com",
   },
 
   {
     id: 14,
-    icon: "/icon/14.png",
+    icon: "/bahamut-clone-practice/icon/14.png",
     title: "ACG創作大賽",
     link: "https://www.google.com",
   },
 
   {
     id: 15,
-    icon: "/icon/15.png",
+    icon: "/bahamut-clone-practice/icon/15.png",
     title: "會員中心",
     link: "https://www.google.com",
   },

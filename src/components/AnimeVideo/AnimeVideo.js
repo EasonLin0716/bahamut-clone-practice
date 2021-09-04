@@ -2,7 +2,7 @@ import Title from "../UI/Title/Title.js";
 const mockData = [
   {
     id: 1,
-    imgSrc: "/img/10.jpg",
+    imgSrc: "/bahamut-clone-practice/img/10.jpg",
     title: "Lorem ipsum dolor sit amet.",
     episode: 12,
     updatedText: "今日更新",
@@ -10,7 +10,7 @@ const mockData = [
   },
   {
     id: 2,
-    imgSrc: "/img/11.jpg",
+    imgSrc: "/bahamut-clone-practice/img/11.jpg",
     title: "Lorem ipsum dolor sit amet consectetur.",
     episode: 36.5,
     updatedText: "昨日更新",
