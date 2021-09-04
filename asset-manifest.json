@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bahamut-clone-practice/static/css/main.30625d95.chunk.css",
-    "main.js": "/bahamut-clone-practice/static/js/main.ed95a06a.chunk.js",
-    "main.js.map": "/bahamut-clone-practice/static/js/main.ed95a06a.chunk.js.map",
+    "main.js": "/bahamut-clone-practice/static/js/main.17ddc8a1.chunk.js",
+    "main.js.map": "/bahamut-clone-practice/static/js/main.17ddc8a1.chunk.js.map",
     "runtime-main.js": "/bahamut-clone-practice/static/js/runtime-main.42daaf10.js",
     "runtime-main.js.map": "/bahamut-clone-practice/static/js/runtime-main.42daaf10.js.map",
     "static/js/2.abe37fc6.chunk.js": "/bahamut-clone-practice/static/js/2.abe37fc6.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.42daaf10.js",
     "static/js/2.abe37fc6.chunk.js",
     "static/css/main.30625d95.chunk.css",
-    "static/js/main.ed95a06a.chunk.js"
+    "static/js/main.17ddc8a1.chunk.js"
   ]
 }
